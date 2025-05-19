@@ -1,6 +1,6 @@
 #variables
-number1 = 24
-number2 = 4
+number1 = 10
+number2 = 5
 
 #addition
 print(f"Addition of {number1} and {number2} is {number1 + number2}.")
