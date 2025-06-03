@@ -1,9 +1,9 @@
-AHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(temperature):
-    global AHRENHEIT_TO_CELSIUS_FACTOR
-    return (temperature - 32) * AHRENHEIT_TO_CELSIUS_FACTOR
+    global FAHRENHEIT_TO_CELSIUS_FACTOR
+    return (temperature - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     
 
 def convert_to_fahrenheit(temperature):
